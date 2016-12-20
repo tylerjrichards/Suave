@@ -2,7 +2,7 @@ Package: Suave
 Title: Measures the Suave factor in Tinder messages
 Version: 0.0.0.9000
 Authors@R: person("Tyler", "Richards", email = "tylerjrichards@gmail.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+Description: This R package is another rating system that could be used by Tinder to illustrate how smooth individuals were once the match happened. The math is described in the READ.ME on my github.
 Depends:
     R (>= 3.3.1)
 License: GL-2
