@@ -11,7 +11,7 @@ where
 R2 = New Suave Rank
 R0 = Old Suave Rank
 K = 30
-S = (1/6)(average polarity + 1) + (1/180)(60 - average time difference) + (1/6)(percent messages + percent content)
+S = (1/6)(average polarity) + (1/180)(60 - average time difference) + (1/6)(percent messages + percent content)
   average polarity = a sentiment analysis gives us a number between -1 and 1 for the polarity of the text messages. Adding one to it and     dividing by two gives us only positive numbers.
   average time difference = the time it takes for the other individual to respond, in minutes. Subtracting it from 60 and then dividing it   by 60 gives us a number between 0 and 1. 
   percent messages = the percent of the total messages sent by the responder
