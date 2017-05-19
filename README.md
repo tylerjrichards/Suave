@@ -1,6 +1,6 @@
 # Suave
-Internally at Tinder there is a rating equation modeled after the system created by Arpad Elo. In the most basic sense, the system is designed to predict the success of the interaction from the difference between the two scores, and compare that to the actual success. For Tinder's application, a success would be a right swipe, and a failure would be a left swipe.  
-There is one issue however, and this is the general issue with using an Elo rating system, which is it fails to take into account anything after a match happens.
+Internally at Tinder there is a rating equation modeled after the system created by Arpad Elo. In the most basic sense, the system is designed to predict the success of the interaction from the difference between the two scores, and compare that to the actual success. For Tinder's application, a success would be a right swipe, and a failure would be a left swipe, a binary decision.   
+There is one issue however (and this is the general issue with using an Elo rating system). The Elo rating fails to take into account anything after a match happens.
 Note: all of this is assumed from research about Elo systems as Tinder (rightfully) does not release their algorithm to the public
 
 This R package is another rating system that could be used by Tinder to illustrate how smooth individuals were once the match happened. The math is described below. 
